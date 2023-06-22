@@ -1,0 +1,42 @@
+
+.value-button {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.value-button:hover {
+cursor: pointer;
+}
+
+.decrement {
+margin-right: -4px;
+border-radius: 20px 0 0 20px;
+border-right: none;
+padding-left: 10px;
+}
+
+.increment {
+margin-left: -4px;
+border-radius: 0 20px 20px 0;
+border-left: none;
+padding-right: 10px;
+}
+
+.quentity {
+text-align: center;
+border: none;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+width: 50px;
+padding: 5px 0px;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.value-icon{
+    color: rgb(41, 41, 41);
+    font-size: small;
+}

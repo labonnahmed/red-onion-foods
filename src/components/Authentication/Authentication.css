@@ -1,0 +1,40 @@
+.authentication input {
+    border: none;
+    padding: 5px 10px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+input:not(.submit) {
+    background-color: rgb(230, 230, 230);
+}
+
+.submit {
+    background-color: #F91944;
+    color: white;
+    font-size: 15px;
+}
+
+input::placeholder {
+    font-size: small;
+}
+
+.authentication small {
+    color: #F91944;
+}
+
+.form {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.optionalAuthBtn {
+    border: none;
+    padding: 5px 10px;
+    width: 140px;
+    border-radius: 5px;
+    margin: 2px;
+}
